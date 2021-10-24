@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectImg", "DetectImg\DetectImg.csproj", "{F7805F78-E38B-4B35-AC60-18113E677CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7805F78-E38B-4B35-AC60-18113E677CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7805F78-E38B-4B35-AC60-18113E677CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7805F78-E38B-4B35-AC60-18113E677CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7805F78-E38B-4B35-AC60-18113E677CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1F16697-4203-40D3-AB72-351577C9B3E7}
+	EndGlobalSection
+EndGlobal

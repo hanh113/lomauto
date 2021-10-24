@@ -1,0 +1,98 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:ADBCapture.Resources">
+	<RadialGradientBrush
+		GradientOrigin="1,1"
+		Center="1,0.79"
+		RadiusX="0.1"
+		RadiusY="0.15"
+		x:Key="WhiteDisapearAPathRadial">
+		<GradientStop
+			Color="Transparent"
+			Offset="0.999" />
+		<GradientStop
+			Color="White"
+			Offset="0.9991" />
+		<GradientStop
+			Color="White"
+			Offset="1" />
+	</RadialGradientBrush>
+	<Style
+		TargetType="{x:Type Button}"
+		x:Key="btnNoImage">
+		<Setter
+			Property="MinHeight"
+			Value="30" />
+		<Setter
+			Property="Template">
+			<Setter.Value>
+				<ControlTemplate
+					TargetType="{x:Type Button}">
+					<Grid
+						Width="{TemplateBinding Width}"
+						Height="{TemplateBinding Height}"
+						ClipToBounds="True">
+						<Rectangle
+							Name="rectMain"
+							RadiusX="12"
+							RadiusY="12"
+							RenderTransformOrigin="0.5,0.5"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Stretch"
+							Fill="#00FFFFFF"
+							StrokeThickness="2"
+							Stroke="{StaticResource WhiteDisapearAPathRadial}">
+							<UIElement.RenderTransform>
+								<TransformGroup>
+									<ScaleTransform />
+									<RotateTransform />
+								</TransformGroup>
+							</UIElement.RenderTransform>
+							<UIElement.BitmapEffect>
+								<BevelBitmapEffect />
+							</UIElement.BitmapEffect>
+						</Rectangle>
+						<Grid
+							Name="myContentPresenterDockPanel">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition
+									Width="auto" />
+								<ColumnDefinition />
+							</Grid.ColumnDefinitions>
+							<ContentPresenter
+								Name="myContentPresenter"
+								Margin="15 5 15 5"
+								Grid.Column="1"
+								Content="{TemplateBinding Content}"
+								TextBlock.TextAlignment="Center"
+								TextBlock.Foreground="#FFFFFFFF" />
+						</Grid>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<Trigger
+							Property="UIElement.IsMouseOver"
+							Value="True">
+							<Setter
+								TargetName="rectMain"
+								Property="Stroke"
+								Value="#FFFFFFFF" />
+							<Setter
+								TargetName="rectMain"
+								Property="Fill"
+								Value="#FFFFFFFF" />
+							<Setter
+								TargetName="myContentPresenter"
+								Value="#FF800080" />
+							<Setter
+								TargetName="myContentPresenter"
+								Property="UIElement.BitmapEffect">
+								<Setter.Value>
+									<BlurBitmapEffect
+										Radius="1" />
+								</Setter.Value>
+							</Setter>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+</ResourceDictionary>

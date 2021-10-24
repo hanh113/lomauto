@@ -1,0 +1,15 @@
+<Application
+	x:Class="ADBCapture.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:ADBCapture">
+	<Application.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary
+					Source="Resources/TextBoxResourceStyle.xaml" />
+				<ResourceDictionary
+					Source="Resources/ButtonResourceStyle.xaml" />
+				<ResourceDictionary
+					Source="Resources/ImageResourceStyle.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>

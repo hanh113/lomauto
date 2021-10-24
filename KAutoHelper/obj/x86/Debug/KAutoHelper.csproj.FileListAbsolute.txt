@@ -1,0 +1,9 @@
+E:\project\auto\Code\KAutoHelper\obj\x86\Debug\KAutoHelper.csproj.CoreCompileInputs.cache
+E:\project\auto\Code\KAutoHelper\bin\Debug\KAutoHelper.dll
+E:\project\auto\Code\KAutoHelper\bin\Debug\KAutoHelper.pdb
+E:\project\auto\Code\KAutoHelper\obj\x86\Debug\KAutoHelper.dll
+E:\project\auto\Code\KAutoHelper\obj\x86\Debug\KAutoHelper.pdb
+E:\project\auto\Code\KAutoHelper\bin\Debug\Emgu.CV.World.dll
+E:\project\auto\Code\KAutoHelper\bin\Debug\Emgu.CV.World.xml
+E:\project\auto\Code\KAutoHelper\obj\x86\Debug\KAutoHelper.csproj.CopyComplete
+E:\project\auto\Code\KAutoHelper\obj\x86\Debug\KAutoHelper.csprojAssemblyReference.cache

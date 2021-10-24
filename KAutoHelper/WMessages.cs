@@ -1,0 +1,43 @@
+﻿using System;
+
+namespace KAutoHelper
+{
+	// Token: 0x0200000B RID: 11
+	public enum WMessages
+	{
+		// Token: 0x04000072 RID: 114
+		WM_LBUTTONDOWN = 513,
+		// Token: 0x04000073 RID: 115
+		WM_LBUTTONUP,
+		// Token: 0x04000074 RID: 116
+		WM_LBUTTONDBLCLK,
+		// Token: 0x04000075 RID: 117
+		WM_RBUTTONDOWN,
+		// Token: 0x04000076 RID: 118
+		WM_RBUTTONUP,
+		// Token: 0x04000077 RID: 119
+		WM_RBUTTONDBLCLK,
+		// Token: 0x04000078 RID: 120
+		WM_KEYDOWN = 256,
+		// Token: 0x04000079 RID: 121
+		WM_KEYUP,
+		// Token: 0x0400007A RID: 122
+		BN_CLICKED = 0,
+		// Token: 0x0400007B RID: 123
+		WM_COMMAND = 273,
+		// Token: 0x0400007C RID: 124
+		WM_SETTEXT = 12,
+		// Token: 0x0400007D RID: 125
+		WM_CHAR = 258,
+		// Token: 0x0400007E RID: 126
+		BM_CLICK = 245,
+		// Token: 0x0400007F RID: 127
+		WM_SYSKEYDOWN = 260,
+		// Token: 0x04000080 RID: 128
+		WM_SYSKEYUP,
+		// Token: 0x04000081 RID: 129
+		WM_MOUSEMOVE = 512,
+		// Token: 0x04000082 RID: 130
+		WM_ACTIVATE = 6
+	}
+}
